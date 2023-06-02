@@ -26,18 +26,65 @@ const darkElegantTheme = createTheme({
 
 
 function App() {
-  // 2. Use at the root of your app
   return (
-    <div className='w-screen h-screen flex items-center justify-center bg-grey'>
     <NextUIProvider theme={darkElegantTheme}>
+    <div className='h-full w-screen bg-grey flex flex-col justify-center'>
+      <div className='flex flex-row bg-white w-2/3'>
     <Card nome={'Nike Adapt BB 2.0'}
     descricao={'Consistent, customized fit, game-changing.'}
     preco={279}
     desconto={350}
     imagem={'https://nextui.org/images/shoes-1.png'}
     />
-    </NextUIProvider>
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
     </div>
+
+    <div className='flex flex-row bg-white'>
+
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+</div>
+<div className='flex flex-row bg-white'>
+
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+</div>
+<div className='flex flex-row bg-white'>
+
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+    </div>
+    </div>
+    </NextUIProvider>
   );
 }
 export default App;
