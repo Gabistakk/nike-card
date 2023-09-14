@@ -4,7 +4,7 @@ import { Buy, Discount } from 'react-iconly';
 
 export default function Card({ nome = 'Não encontrado.', descricao = 'Descrição não encontrada.', preco = 'Indisponivel', desconto, imagem }) {
   return (
-    <div className='h-64 w-7/12 bg-font rounded-3xl card-box flex items-center gap-5 pr-5'>
+    <div className='h-64 w-full bg-font rounded-3xl card-box flex items-center gap-5 pr-5'>
       <div className='bg-gradient-to-br from-grey to-black h-full flex items-center rounded-3xl w-1/2'>
         {imagem && <Image showSkeleton className='saturate-0' src={imagem} objectFit='cover' height={'max'}>
         </Image>}

@@ -28,8 +28,8 @@ const darkElegantTheme = createTheme({
 function App() {
   return (
     <NextUIProvider theme={darkElegantTheme}>
-    <div className='h-full w-screen bg-grey flex flex-col justify-center'>
-      <div className='flex flex-row bg-white w-2/3'>
+      <div className='flex justify-center items-center bg-darkGrey'>
+      <div className='flex flex-col gap-5'>
     <Card nome={'Nike Adapt BB 2.0'}
     descricao={'Consistent, customized fit, game-changing.'}
     preco={279}
@@ -42,24 +42,9 @@ function App() {
     desconto={350}
     imagem={'https://nextui.org/images/shoes-1.png'}
     />
-    </div>
+    
 
-    <div className='flex flex-row bg-white'>
-
-    <Card nome={'Nike Adapt BB 2.0'}
-    descricao={'Consistent, customized fit, game-changing.'}
-    preco={279}
-    desconto={350}
-    imagem={'https://nextui.org/images/shoes-1.png'}
-    />
-    <Card nome={'Nike Adapt BB 2.0'}
-    descricao={'Consistent, customized fit, game-changing.'}
-    preco={279}
-    desconto={350}
-    imagem={'https://nextui.org/images/shoes-1.png'}
-    />
-</div>
-<div className='flex flex-row bg-white'>
+    
 
     <Card nome={'Nike Adapt BB 2.0'}
     descricao={'Consistent, customized fit, game-changing.'}
@@ -73,8 +58,20 @@ function App() {
     desconto={350}
     imagem={'https://nextui.org/images/shoes-1.png'}
     />
-</div>
-<div className='flex flex-row bg-white'>
+
+
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
+    <Card nome={'Nike Adapt BB 2.0'}
+    descricao={'Consistent, customized fit, game-changing.'}
+    preco={279}
+    desconto={350}
+    imagem={'https://nextui.org/images/shoes-1.png'}
+    />
 
     <Card nome={'Nike Adapt BB 2.0'}
     descricao={'Consistent, customized fit, game-changing.'}
